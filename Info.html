@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Booking</title>
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+</head>
+
+<style>
+
+ body {
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+    .container {
+        background-color: #ffffff;
+        margin: 200px;
+        display: flex;
+        width: 550px;
+        height: 600px;
+        box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
+        perspective: 1000px;
+    }
+
+    .heading {
+        color:black;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    
+    .container-form {
+     padding: 20px 0;
+     margin: 0 auto;
+     color: #000;
+    }
+
+    form {
+        display: grid;
+        grid-row-gap: 20px;
+   }
+    
+    
+    .form-field {
+        display: flex;
+        justify-content: space-between;
+    }
+        
+    input,select {
+        padding: 10px 15px;
+    }
+
+    .btn {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin: 0;
+     position: absolute;
+     top: 90%;
+     left: 90%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+    }
+
+    
+    .form-control {
+       display: block;
+     margin-right: 170px;
+     margin-left: 170px;
+    
+    }
+   
+    .form-select{
+        display: block;
+     margin-right: 170px;
+     margin-left: 170px;
+    }
+   
+                                  
+</style>
+
+<body>
+ <div class="container">
+     <div class="container-form">
+         <form action="#">
+         <h2 class="heading heading-yellow">Informatie</h2>
+         
+         <div class="email">
+             <label for="inputEmail4" class="form-label">Voornaam</label>
+             <input type="email" class="form-control" id="Voornaam" placeholder="Voornaam">
+         </div>
+             <div class="email">
+             <label for="inputPassword4" class="form-label">Achternaam</label>
+            <input type="password" class="form-control" id="Achternaam" placeholder="Achternaam">
+         </div>
+         <div class="email">
+              <label for="inputAddress" class="form-label">Email</label>
+             <input type="text" class="form-control" id="inputAddress" placeholder="1234@123.nl">
+         </div>
+         <div class="email">
+             <label for="inputAddress2" class="form-label">Telefoonnummer</label>
+             <input type="text" class="form-control" id="inputAddress2" placeholder="06-12345678">
+         </div>
+         <div class="email">
+             <label for="inputCity" class="form-label">Speciale wensen</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Allergie of speciale stoelen">
+         </div>
+         <div class="email">
+             <label for="inputState" class="form-label">Bezoekers</label>
+         <select id="inputState" class="form-select">
+             <option selected>Choose...</option>
+             <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+             <option>5 of meer</option>
+         </select>
+         
+         <button class="btn" type="submit">Reserveren</button>
+         </div>
+ </div>
+
+        
+
+
+</body>
+</html>
