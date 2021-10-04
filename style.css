@@ -1,17 +1,67 @@
-h2{
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p{
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body{
-    background-image: url(./img/background.jpg);
+h3{
+    font-size: medium;
   }
+
+ body {
+   background-image: url(./img/Toppart.jpg);
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    }
+
+    .container {
+        background-color: #c7c7c7;
+        margin: 200px;
+        display: flex;
+        width: 600px;
+        height: 900px;
+        box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
+        perspective: 1000px;
+    }
+
+    .heading {
+        color:black;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    
+    .container-form {
+    
+     margin: 0 auto;
+     color: #000;
+    }
+
+
+    
+    
+    .form-field {
+        display: flex;
+        justify-content: space-between;
+    }
+        
+
+
+
+
+    
+    .form-control {
+       display: block;
+     margin-right: 1700px;
+     margin-left: 1700px;
+    
+    }
+   
+    .form-select{
+        display: block;
+     margin-right: 270px;
+     margin-left: 270px;
+    }
