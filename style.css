@@ -21,8 +21,8 @@ h3{
         background-color: #ffffff;
         margin: 200px;
         display: flex;
-        width: 600px;
-        height: 950px;
+        width: 650px;
+        height: 975px;
         box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
         perspective: 1000px;
     }
