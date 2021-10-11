@@ -39,7 +39,7 @@
           <div class="row border-top"> <!--Contact Col -->
             <div class="col-12">
             <h4 id="Title">CONTACT</h4><br>
-            <a id="Contact" href="https://www.georgemarina.nl/">
+            <a id="Contact" href="http://mbomarina.nl/contact-page">
               <p>MAPS</p>
               <p>E-MAIL</p>
               <p>PHONE</p> 
@@ -83,7 +83,7 @@
           <div class="row border-bottom border-dark">
             <div class="col-12">
                <h1 id="Title"> MENU </h1><br>
-               <a id="Menu" href="https://www.georgemarina.nl/">
+               <a id="Menu" href="http://mbomarina.nl/menu">
                 <p>FOOD</p><br>
                 <p>DRINKS</p>
               </a>
@@ -92,7 +92,7 @@
 
           <div class="row border-top border-dark"> <!-- Reserveren col-->
             <div class="col-12">
-              <a id="Book" href="https://www.georgemarina.nl/">
+              <a id="Book" href="http://mbomarina.nl/Reservation1">
                 <p> BOOK MY TABLE </p>
             </a>
             </div>
@@ -116,19 +116,19 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./image/food/1.jpg" class="d-block w-100" width="1200" height="600" alt="...">
+                <img src="./image/food/1.jpg" class="d-block w-100" width="1200" height="700" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/2.jpg" class="d-block w-100" width="1200" height="600" alt="...">
+                <img src="./image/food/2.jpg" class="d-block w-100" width="1200" height="700" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/3.jpg" class="d-block w-100" width="1200" height="600" alt="...">
+                <img src="./image/food/3.jpg" class="d-block w-100" width="1200" height="700" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/5.jpg" class="d-block w-100" width="1200" height="600" alt="...">
+                <img src="./image/food/5.jpg" class="d-block w-100" width="1200" height="700" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/10.jpg" class="d-block w-100" width="1200" height="600" alt="...">
+                <img src="./image/food/10.jpg" class="d-block w-100" width="1200" height="700" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -216,28 +216,12 @@
           </div>
           </div> <!--Einde COME QUICKLY col-->
         </div> <br><br><!--einde van reserveren col-->
-      </div><br>
+      </div><br><br>
       <!-- Hier eindig the col -->
 
       <!-- ---------------------------------------------------------- -->
 
-      <!-- hier begint een nieuwe carousel van Drink -->
-      <div class="row">
-        <div class="col-12 border-top border-dark"><br>
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./image/food/7.gif" class="d-block w-100" width="1200" height="500" alt="...">
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <!-- hier eindig de carousel ven de drinks -->
-
-      <!-- --------------------------------------------------------------------- -->
-
+      
       <div class="row"><!--Lijn nummber 3-->
         <div class="col-12 border-top border-dark ">
           <!-- zo dat je de lijn kan zien  -->
@@ -280,7 +264,7 @@
             </div>
           </div> <!--Einde Picture col-->
         </div><!--einde Picture col-->
-      </div><br>  
+      </div><br><br>
       <!-- einde van een nieuwe col -->
       <!-- ------------------------------------------------------------- -->
 
@@ -290,18 +274,18 @@
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./image/food/7.gif" class="d-block w-100" width="1200" height="400" alt="...">
+                <img src="./image/food/7.gif" class="d-block w-100" width="1200" height="700" alt="...">
               </div>
             </div>
           </div>
         </div>
-      </div><br><!-- hier Eindigt de gif carousel -->
+      </div><br><br><!-- hier Eindigt de gif carousel -->
 
       <div class="row"> <!-- lijn nummer 4-->
         <div class="col-12 border-top border-dark ">
           <!-- zo dat je de lijn kan zien -->
         </div>
-      </div><br>
+      </div><br><br><br>
 
       <div class="row">
         <!-- Begin van nieuwe col 1  -->
