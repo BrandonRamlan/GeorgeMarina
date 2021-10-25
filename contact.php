@@ -452,8 +452,12 @@
           <form action="./contact1.php" method="post">
             <h3 class="title">Contact us</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" placeholder="Username"/>
-              <span>Username</span>
+              <input type="text" name="firstname" class="input" placeholder="Firstname"/>
+              <span>Firstname</span>
+            </div>
+            <div class="input-container">
+              <input type="text" name="lastname" class="input" placeholder="Lastname"/>
+              <span>Lastname</span>
             </div>
             <div class="input-container">
               <input type="email" name="email" class="input" placeholder="Email"/>
