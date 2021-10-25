@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
   #footer {
     min-height: 1em;
     background-color: white;
@@ -9,4 +9,4 @@
 </style>
 <div id="footer">
   == copyright MboMarina ==
-</div>
+</div> -->
