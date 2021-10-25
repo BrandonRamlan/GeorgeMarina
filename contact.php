@@ -450,7 +450,7 @@
           <span class="circle two"></span>
 
           <form action="./contact1.php" method="post">
-            <h3 class="title">Contact us</h3>
+            <h3 class="title">contact us</h3>
             <div class="input-container">
               <input type="text" name="firstname" class="input" placeholder="Firstname"/>
               <span>Firstname</span>
