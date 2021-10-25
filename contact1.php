@@ -15,7 +15,7 @@
   </head>
   <body>
    <?php
-    if (empty($_POST["phone"]) or empty($_POST["email"]) or empty($_POST["name"])  or empty($_POST["message"])) {
+    if (empty($_POST["phone"]) or empty($_POST["email"]) or empty($_POST["firstname"]) or empty($_POST["lastname"]) or empty($_POST["message"])) {
       echo'<div class="alert alert-danger" role="alert">
       U heeft niet alle velden ingevuld!
     </div>';
