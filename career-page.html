@@ -7,84 +7,102 @@
 <!-- Font -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
 </head>
-
-<link rel="stylesheet" href="./style.css">
 <style>
-  h3{
-    font-size: medium;
+  h1{
+    text-align: center;
+  }
+  h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .body{
+      margin: 20px;
+      padding: 0px;
+      text-align: center;
+  }
+  .container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 100px 300px;
+      grid-gap:10px;
+  }
+  .gallery-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 0 100px 500px rgba(0,0,0,0.1);
+  }
+  .gallery-item .image{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+
+  }
+  .gallery-item .image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+  }
+  .gallery-item:hover .image img{
+    transform:scale(1,1.08);
+  }
+  .gallery-item .text{
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    pointer-events:all;
+    z-index:4;
+    transition: .3s ease-in-out;
   }
 
- body {
-    background-image: url(./img/container-img.jpg);
-    background-repeat: no-repeat;
-    font-family: sans-serif;
-    font-weight: 400;
-    background-color: rgb(255, 255, 255);
-    letter-spacing: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 100px 200px;
-  grid-gap: 50px;
 
 
-  padding: 100px;
-}
-
-.grid-container > div1 {
-  background-image: url(./img/chefmarina.jpg);
-  text-align: center;
-  padding: 200px 10px;
-  font-size: 30px;
-  line-break: strict;
-  box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
-
-}
-.grid-container > div2 {
-background-image: url(./img/serveerdermarina.jpg);
-text-align: center;
-padding: 200px 10px;
-font-size: 30px;
-line-break: strict;
-box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
-
-}
-.grid-container > div3 {
-background-image: url(./img/managermarina.jpg);
-text-align: center;
-padding: 200px 10px;
-font-size: 30px;
-line-break: strict;
-box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
-
-}
 </style>
 
-<div1 class="grid-container">
-    <div1>Wil je chef bij george marina worden? 
-      <br>
-      <br>
-      <a href="chef.html">lees meer</a>
-       
-    </div1>
-    <div2>Wil je serveerder bij george marina worden?
-      <br>
-      <br>
-      <a href="chef.html">lees meer</a>
-       
-    </div2>
-    <div3>wil je manager bij george marina worden?
-      <br>
-      <br>
-      <a href="chef.html">lees meer</a>
+<h1><br>  Over George Marina</h1>
+<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, ex?</h2>
+<div class="container">
+  <div class="gallery-item">
+  <div class="gallery-container">
+    <div class="image">
+      <img src="./img/chefmarina.jpg" alt="chefkleur"></div>
+    </div>
+    <div class="text">Chef bij George Marina! <br>
+      <a href="chef.html">Klik voor meer informatie</a></div>
+    
+  </div>
+
+  <div class="gallery-item">
+    <div class="gallery-container">
+      <div class="image">
+        <img src="./img/serveerdermarina.jpg" alt="serveerderkleur"></div>
+      </div>
+      <div class="text">Serveerder bij George Marina! <br>
+        <a href="serveerder.html">Klik voor meer informatie</a></div>
+      
+
+    </div>
+
+    <div class="gallery-item">
+      <div class="gallery-container">
+        <div class="image">
+          <img src="./img/managermarina.jpg" alt="managerkleur"></div>
+        </div>
+        <div class="text">Manager bij George Marina! <br>
+          <a href="manager.html">Klik voor meer informatie</a></div>
         
-    </div3>
+      </div>
 </div>
-        
+
+
+
+
 
 
 </body>
