@@ -1,80 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Contact-Page</title>
-
-<!-- Font -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+    <title>Contact-Page</title>
+    <link rel="stylesheet" href="./Css/CoronaPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
 </head>
 
-<link rel="stylesheet" href="./style.css">
-<style>
-  h3{
-    font-size: medium;
-  }
-
- body {
-     height: 95vh;
-     background: linear-gradient(to bottom, #FFFFFF, #00EAFF, #fff);
-    font-family: sans-serif;
-    letter-spacing: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .container {
-        /* background-image: url(./image/container-img.png); */
-        background-color: white;
-        margin: 200px;
-        display: flex;
-        width: 800px;
-        height: 530px;
-        box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
-        perspective: 1000px;
-    }
-
-    .heading {
-        color:black;
-        font-size: 35px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    
-    
-    .container-form {
-    
-     margin: 0 auto;
-     color: #000;
-    }
 
 
-    
-    
-    .form-field {
-        display: flex;
-        justify-content: space-between;
-    }
-        
-
-
-
-
-    
-    .form-control {
-       display: block;
-     margin-right: 1700px;
-     margin-left: 1700px;
-    
-    }
-   
-    .form-select{
-        display: block;
-     margin-right: 270px;
-     margin-left: 270px;
-    }
-</style>
 <body>
  <div class="container">
      <div class="container-form">
@@ -119,6 +50,10 @@
              
              ______________________________________________________________
 
+             <h3>
+                <a style="text-decoration: none; color:#000;" href="http://mbomarina.nl">Klik hier Om naar HOME te gaan</a>
+                <br>
+            </h3>
         </div>
         </div>
          
@@ -129,4 +64,3 @@
 
 
 </body>
-</html>

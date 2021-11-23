@@ -1,76 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Contact-Page</title>
-
-<!-- Font -->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+ <title>Contact-Page</title>
+ <link rel="stylesheet" type="text/css" href="./Css/ContactPage.css">
+ <!-- Font -->
+ <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
 </head>
-<style>
-  h3{
-    font-size: medium;
-  }
 
- body {
-    font-family: sans-serif;
-    background: linear-gradient(to bottom, #FFFFFF, #00EAFF, #fff);
-    letter-spacing: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .container {
-        background-color: white;
-        margin: 20px;
-        display: flex;
-        width: 650px;
-        height: 1000px;
-        box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
-        perspective: 1000px;
-    }
-
-    .heading {
-        color:black;
-        font-size: 35px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    
-    
-    .container-form {
-    
-     margin: 0 auto;
-     color: #000;
-    }
-
-
-    
-    
-    .form-field {
-        display: flex;
-        justify-content: space-between;
-    }
-        
-
-
-
-
-    
-    .form-control {
-       display: block;
-     margin-right: 1700px;
-     margin-left: 1700px;
-    
-    }
-   
-    .form-select{
-        display: block;
-     margin-right: 270px;
-     margin-left: 270px;
-    }
-</style>
 <body>
  <div class="container">
      <div class="container-form">
@@ -141,4 +75,3 @@
 
 
 </body>
-</html>
