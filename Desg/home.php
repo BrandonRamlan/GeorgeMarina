@@ -128,19 +128,19 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./image/food/1.jpg" class="d-block w-100" width="1200" height="700" alt="...">
+                <img src="./image/food/1.jpg" class="d-block w-100" width="1200" height="500" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/2.jpg" class="d-block w-100" width="1200" height="700" alt="...">
+                <img src="./image/food/2.jpg" class="d-block w-100" width="1200" height="500" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/3.jpg" class="d-block w-100" width="1200" height="700" alt="...">
+                <img src="./image/food/3.jpg" class="d-block w-100" width="1200" height="500" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/5.jpg" class="d-block w-100" width="1200" height="700" alt="...">
+                <img src="./image/food/5.jpg" class="d-block w-100" width="1200" height="500" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./image/food/10.jpg" class="d-block w-100" width="1200" height="700" alt="...">
+                <img src="./image/food/10.jpg" class="d-block w-100" width="1200" height="500" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -152,6 +152,11 @@
               <span class="visually-hidden ">Next</span>
             </button>
           </div>
+          <div class="col-12"><br><br>
+              <a id="Title" href="http://mbomarina.nl/gallery">
+                <p>Op deze link kan je meer photos bekijken "Gallery"</p>
+            </a>
+            </div>
         </div>
       </div><br>
       <!-- Hier eindig the carousel -->
@@ -170,8 +175,10 @@
           <div class="row border-bottom border-dark">
             <div class="col-12">
                <h1 id="Title"> BOOK EVENT </h1>
+                <a style="text-decoration: none;" href="http://mbomarina.nl/registrer-eerst">
+                  <h1 id="Title">MORE INFORMATION</h1><br>
+                </a>
                 
-                <h1 id="Title">MORE INFORMATION</h1><br>
                 
                 <p style="font-family:Comic Sans;" class="text-center">
                  In search of an inspiring, creative meeting space that's
@@ -182,7 +189,7 @@
 
           <div class="row border-top border-dark"> <!--   Carees col-->
             <div class="col-12"><br><br>
-              <a id="Book" href="https://www.georgemarina.nl/">
+              <a id="Book" href="http://mbomarina.nl/careerPage">
                 <p>CAREERS</p>
             </a>
             </div>
@@ -245,7 +252,12 @@
         <div class="col-3"> <!--Picture Col-->
           <div class="row ">
             <div class="col-12">
-              <img src="./image/food/13.png" alt="Girl in a jacket" width="250" height="350"><br>
+              <img src="./image/food/13.png" alt="Girl in a jacket" width="250" height="350"><br><br>
+              <a id="Title" style="text-decoration: none;
+                        color:black; 
+                      font-family:Comic Sans;" class="text-center" href="http://mbomarina.nl/corona-page">
+                <p>Corona-Page.</p>
+              </a>
             </div>
           </div>
         </div>
@@ -273,6 +285,11 @@
           <div class="row ">
             <div class="col-12">
               <img src="./image/food/11.png" alt="Girl in a jacket" width="250" height="350"><br>
+              <a id="Title" style="text-decoration: none;
+                        color:black; 
+                      font-family:Comic Sans;" class="text-center" href="http://mbomarina.nl/login">
+                <p>Login/Register.</p>
+              </a>
             </div>
           </div> <!--Einde Picture col-->
         </div><!--einde Picture col-->
@@ -330,10 +347,10 @@
               <h1 id="Title">CONTACT</h1><br>
             </div>
           <div style="text-align:center">    
-              <p>Spaklerweg 10A</p>
-              <p>1096 BA Amsterdam</p> 
-              <p>+ 31 20 737 0280</p>
-              <p>hello@georgemarina.nl</p>
+              <p> Daltonlaan 200 Utrecht</p>
+              <p>3584 BJ Utrecht</p> 
+              <p>+ 06 12345678</p>
+              <p>contact@gearge-kanaleneiland.nl</p>
           </div>
         </div>
       </div><br>
@@ -363,7 +380,7 @@
         <!-- Begin van col 3 -->
         <div class="col-4 ">
           <a style="text-decoration: none; color:black;" href="https://www.georgemarina.nl/">
-            <p>Made by atoms.amsterdam</p>
+            <p>Made by atoms.Utrecht</p>
           </a>
         </div>
       </div>

@@ -1,0 +1,64 @@
+h3{
+    font-size: medium;
+  }
+
+ body {
+     height: 95vh;
+     background: linear-gradient(to bottom, #FFFFFF, #00EAFF, #fff);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .container {
+        /* background-image: url(./image/container-img.png); */
+        background-color: white;
+        margin: 200px;
+        display: flex;
+        width: 800px;
+        height: 530px;
+        box-shadow: 0 0 40px 20px rgba(0,0,0,0.1);
+        perspective: 1000px;
+    }
+
+    .heading {
+        color:black;
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    
+    .container-form {
+    
+     margin: 0 auto;
+     color: #000;
+    }
+
+
+    
+    
+    .form-field {
+        display: flex;
+        justify-content: space-between;
+    }
+        
+
+
+
+
+    
+    .form-control {
+       display: block;
+     margin-right: 1700px;
+     margin-left: 1700px;
+    
+    }
+   
+    .form-select{
+        display: block;
+     margin-right: 270px;
+     margin-left: 270px;
+    }
