@@ -2,6 +2,7 @@
   $alert = (isset($_GET["alert"]))? $_GET["alert"]: "default";
   $email = (isset($_GET["email"]))? $_GET["email"]: "";
   $pwh = (isset($_GET["pwh"]))? $_GET["pwh"]: "";
+  $max_persons = (isset($_GET["max_persons"]))? $_GET["max_persons"]: "";
 
   
   switch($alert) {
@@ -128,6 +129,18 @@
               U heeft geen rechten op deze pagina, u wordt doorgestuurd naar de homepage....
             </div>';
             header("Refresh: 3; ./index.php?content=home");
+    break;
+    case "reservation_success" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              u ontvangt een bevestiging....
+            </div>';
+            header("Refresh: 3; ./index.php?content=k-home");
+    break;
+    case "reservation_error" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+             u kunt niet reseveren voor '. $max_persons .' u kunt niet nie reserveren voor dit tijdstip en dag of deze dag, probeer een andere dag og tijdstip....
+            </div>';
+            header("Refresh: 5; ./index.php?content=k-home");
     break;
     default:
       header("Location: ./index.php?content=home");
