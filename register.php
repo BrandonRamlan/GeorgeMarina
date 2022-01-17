@@ -40,7 +40,7 @@
         transition: transform 1s;
     }
 
-    .card-front, .card-back{
+    .card-back{
         position: absolute;
         width: 100%;
         height: 100%;
@@ -84,10 +84,7 @@
         color: #000;
     }
 
-    ::placeholder{
-        color: #000;
-        font-size: 15px;
-    }
+
 
     button{
         width: 100%;

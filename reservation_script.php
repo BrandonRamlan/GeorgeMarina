@@ -11,7 +11,7 @@
  $max_persons = sanitize($_POST["max_persons"]);
  $message = sanitize($_POST["message"]);
  $email = $_SESSION["email"];
- $firstname = $_SESSION["firstname"];
+ 
 
 
  $sql = "SELECT `id`
@@ -36,15 +36,13 @@
                                         `tafel`, 
                                         `max_aantal_personen`, 
                                         `message`,
-                                        `email_klant`,
-                                        `voornaam`) 
+                                        `email_klant`) 
                 VALUES                 ('$date', 
                                         '$time', 
                                         '$tabel_id',
                                         '$max_persons',
                                         '$message',
-                                        '$email',
-                                        '$firstname')";
+                                        '$email')";
         // echo $sql;exit();
     $result = mysqli_query($conn,$sql);
 

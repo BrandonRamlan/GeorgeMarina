@@ -141,7 +141,7 @@
                                 <button type="submit" class="submit-btn">Submit</button>
                                 <input type="checkbox"><span>Remember me</span>
                             </form>
-                            <a href="http://mbomarina.nl/Registrer"><p>I'm new here</p></a>
+                            <a href="./register.php"><p>I'm new here</p></a>
                             <a href="">Forgot Password</a>
                             <a href="http://mbomarina.nl/">Home</a>
                         </div>

@@ -24,7 +24,6 @@
 }
 
 
-
 a#Book p  {
     text-align: center;
     text-transform: uppercase;
@@ -97,6 +96,7 @@ a#Contact p  {
 
 
 #Title{
+    text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-family: verdana;
